@@ -17,6 +17,11 @@ document.getElementById('add-button').addEventListener('click', function(event){
       const sara = doc + to;
   document.getElementById('balanc').innerText = sara;
 
+  const p = document.createElement('p');
+p.innerText = `New add many ${doc} Mot many Taka ${sara}`
+
+document.getElementById('transaction-history').appendChild(p)
+
     }
     else{
         alert('carret mony')
